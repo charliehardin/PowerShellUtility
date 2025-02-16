@@ -42,11 +42,11 @@ Unblock the script (since it is not digitally signed):
 
 Change the execution policy (if necessary):
 
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+`Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
 
 Run the script as an administrator:
 
-Start-Process PowerShell -ArgumentList "-ExecutionPolicy Bypass -File .\Install.ps1" -Verb RunAs
+`Start-Process PowerShell -ArgumentList "-ExecutionPolicy Bypass -File .\Install.ps1" -Verb RunAs`
 
 This will install all necessary dependencies, including the ActiveDirectory module if it is not already present.
 
@@ -56,7 +56,7 @@ Ensure that PowerShell is running with administrator privileges before executing
 
 If you encounter execution policy restrictions, you can temporarily bypass them using:
 
-Set-ExecutionPolicy Bypass -Scope Process -Force
+`Set-ExecutionPolicy Bypass -Scope Process -Force`
 
 This project is intended for system administrators and IT professionals managing Active Directory environments.
 
