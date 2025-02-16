@@ -4,6 +4,8 @@
 
 This PowerShell Utility project is designed to automate various administrative tasks, making system management more efficient. It includes a set of scripts to streamline operations such as user management, system diagnostics, and more. Additionally, the utility features a basic GUI for easily launching the scripts.
 
+![Image](https://github.com/user-attachments/assets/0dee1be7-d7b7-4c9f-a480-84f67150feed)
+
 ### **This project is a work in progress - all features may not be available or fully functional at this moment.**
 
 ## Use Cases
