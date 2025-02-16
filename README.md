@@ -4,7 +4,7 @@
 
 This PowerShell Utility project is designed to automate various administrative tasks, making system management more efficient. It includes a set of scripts to streamline operations such as user management, system diagnostics, and more. Additionally, the utility features a basic GUI for easily launching the scripts.
 
-### This project is a work in progress - all features may not be available or fully functional at this moment.
+### **This project is a work in progress - all features may not be available or fully functional at this moment.**
 
 ## Use Cases
 
@@ -20,7 +20,7 @@ Log analysis and reporting
 
 This project requires the ActiveDirectory module, which is essential for interacting with Active Directory environments.
 
-Installing the ActiveDirectory Module
+### Installing the ActiveDirectory Module
 
 The ActiveDirectory module can be installed through one of the following methods:
 
@@ -38,7 +38,7 @@ Steps:
 
 Unblock the script (since it is not digitally signed):
 
-Unblock-File -Path .\Install.ps1
+`Unblock-File -Path .\Install.ps1`
 
 Change the execution policy (if necessary):
 
