@@ -1,10 +1,10 @@
 # PowerShell Utility Project
 
-Overview
+## Overview
 
 This PowerShell Utility project is designed to automate various administrative tasks, making system management more efficient. It includes a set of scripts to streamline operations such as user management, system diagnostics, and more. Additionally, the utility features a basic GUI for easily launching the scripts.
 
-Use Cases
+## Use Cases
 
 Automating Active Directory (AD) user and group management
 
@@ -14,7 +14,7 @@ Bulk user creation and modification
 
 Log analysis and reporting
 
-Requirements
+## Requirements
 
 This project requires the ActiveDirectory module, which is essential for interacting with Active Directory environments.
 
@@ -26,7 +26,7 @@ Install RSAT (Remote Server Administration Tools) on Windows, which includes the
 
 Use the provided Install.ps1 script to automatically install the required components.
 
-Installation Instructions
+## Installation Instructions
 
 Running the Install.ps1 Script
 
@@ -48,7 +48,7 @@ Start-Process PowerShell -ArgumentList "-ExecutionPolicy Bypass -File .\Install.
 
 This will install all necessary dependencies, including the ActiveDirectory module if it is not already present.
 
-Notes
+## Notes
 
 Ensure that PowerShell is running with administrator privileges before executing the scripts.
 
@@ -60,6 +60,6 @@ This project is intended for system administrators and IT professionals managing
 
 The included GUI allows users to launch scripts more conveniently without needing to execute them manually from the command line.
 
-License
+### License
 
 This project is provided under the MIT License. Feel free to modify and distribute it as needed.
